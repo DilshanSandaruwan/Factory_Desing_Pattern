@@ -6,5 +6,8 @@ public class Main {
 
         Animal dog = animalFactory.createAnimal("Dog");
         Animal cat = animalFactory.createAnimal("Cat");
+
+        System.out.println(dog);
+        System.out.println(cat);
     }
 }
